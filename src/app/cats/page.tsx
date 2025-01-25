@@ -5,6 +5,7 @@ export default function Cats() {
     <div>
       <div className="mb-4">
         <div className="text-[26px]">Cats</div>
+        <div>meow. meow. meow.</div>
       </div>
       <div className='flex gap-2'>
         <div className="w-1/2 flex flex-col gap-2">
