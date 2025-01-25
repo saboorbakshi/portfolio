@@ -1,6 +1,5 @@
 import Link from '@/components/Link'
 import { experience, projects } from '@/data'
-import Image from 'next/image'
 
 export default function Home() {
   return (
