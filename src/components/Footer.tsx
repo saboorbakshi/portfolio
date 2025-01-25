@@ -1,11 +1,16 @@
-import React from 'react'
+'use client'
+
+import { usePathname } from 'next/navigation'
 
 export default function Footer() {
+  const pathname = usePathname()
+  const isHome = pathname.includes('cats')
+
   return (
     <footer className="flex flex-col items-center justify-center">
       <div className="w-full max-w-screen-custom flex justify-between items-center py-3">
-        <a href="/cats" className="text-fgSecondary hover:underline">
-          Cats
+        <a href={isHome ? '/' : '/cats'} className="text-fgSecondary hover:underline">
+          {isHome ? 'Home' : 'Cats'}
         </a>
         <div className="flex items-center gap-2">
           <div className="relative flex items-center justify-center p-1">
