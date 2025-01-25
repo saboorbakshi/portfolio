@@ -2,30 +2,35 @@ export const experience = [
   {
     company: 'Kenna',
     role: 'Full Stack Engineer',
+    roleFull: 'Full Stack Engineer',
     time: 'Sep 2024 - Dec 2024',
     src: 'logos/kenna.png'
   },
   {
     company: 'Web Agency',
-    role: 'Web Designer and Developer',
+    role: 'Web Developer',
+    roleFull: 'Web Designer & Developer',
     time: 'May 2024 - Jul 2024',
     src: 'logos/placeholder.png'
   },
   {
     company: 'Telcovas',
     role: 'Network Engineer',
+    roleFull: 'Network Engineer',
     time: 'Sep 2023 - Dec 2023',
     src: 'logos/placeholder.png'
   },
   {
     company: 'Omnivex',
-    role: 'Quality Assurance Engineer',
+    role: 'QA Engineer',
+    roleFull: 'Quality Assurance Engineer',
     time: 'Sep 2022 - Dec 2022',
     src: 'logos/omnivex.png'
   },
   {
     company: 'WeBook',
     role: 'Frontend Engineer',
+    roleFull: 'Frontend Engineer',
     time: 'Jan 2022 - Apr 2022',
     src: 'logos/webook.png'
   }

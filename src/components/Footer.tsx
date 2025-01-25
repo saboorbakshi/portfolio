@@ -7,7 +7,7 @@ export default function Footer() {
   const isHome = pathname.includes('cats')
 
   return (
-    <footer className="flex flex-col items-center justify-center">
+    <footer className="flex flex-col items-center justify-center px-4">
       <div className="w-full max-w-screen-custom flex justify-between items-center py-3">
         <a href={isHome ? '/' : '/cats'} className="text-fgSecondary hover:underline">
           {isHome ? 'Home' : 'Cats'}
