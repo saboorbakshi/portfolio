@@ -49,6 +49,14 @@ export const projects = [
     url: 'https://ustc.sa/en'
   },
   {
+    name: 'PodSearch',
+    year: 2024,
+    desc: 'Embedded podcast transcripts enabling semantic search for podcasts via queries',
+    tools: 'Next.js • Hugging Face • Sentence Transformers',
+    src: 'projects/pod-search.png',
+    url: 'https://github.com/saboorbakshi/pod-search'
+  },
+  {
     name: 'TopBot',
     year: 2024,
     desc: 'Reverse-engineered publicly available APIs to track rankings of top crypto apps',
@@ -57,19 +65,11 @@ export const projects = [
     url: 'https://www.topbot.dev/'
   },
   {
-    name: 'PodSearch',
-    year: 2024,
-    desc: 'Embedded podcast transcripts to enabling semantic search via queries',
-    tools: 'Next.js • Hugging Face • Sentence Transformers',
-    src: 'projects/topbot.png',
-    url: 'https://github.com/saboorbakshi/pod-search'
-  },
-  {
     name: 'Hairloss AI',
     year: 2024,
     desc: 'iOS app for diagnosing Male Androgenic Alopecia',
     tools: 'Expo • OpenCV • MediaPipe • Jupyter Notebook',
-    src: 'projects/topbot.png',
+    src: 'projects/hairloss-ai.png',
     url: 'https://apps.apple.com/us/app/hairloss-ai-scan-hair-health/id6563141135'
   }
 ]
