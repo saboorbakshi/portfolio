@@ -7,11 +7,11 @@ export default function Home() {
       <div>
         <div className="text-[23px] sm:text-[26px] mb-1">Saboor Bakshi</div>
         <div className="sm:hidden">
-          Software Engineer with a deep appreciation for great design. Studying Computer Science at
+          Software Engineer with a deep appreciation for good design. Studying Computer Science at
           the University of Waterloo.
         </div>
         <div className="hidden sm:block sm:text-base">
-          <div>Software Engineer with a deep appreciation for great design.</div>
+          <div>Software Engineer with a deep appreciation for good design.</div>
           <div>Studying Computer Science at the University of Waterloo.</div>
         </div>
         <div className="flex gap-2 mt-4 sm:mt-5">
