@@ -14,11 +14,6 @@ const custom = localFont({
       path: '../../public/fonts/font-medium.woff2',
       weight: '500',
       style: 'normal'
-    },
-    {
-      path: '../../public/fonts/font-bold.woff2',
-      weight: '600',
-      style: 'normal'
     }
   ],
   variable: '--font-custom'
