@@ -28,7 +28,7 @@ export default function Home() {
       </div>
 
       <div>
-        <div className="text-xl sm:text-2xl mb-2 sm:mb-4">Experience</div>
+        <div className="text-[21px] sm:text-2xl mb-2 sm:mb-4">Experience</div>
         <div className="flex flex-col gap-2 sm:gap-3">
           {experience.map((item, index) => (
             <div key={index} className="flex items-center justify-between">
@@ -47,7 +47,7 @@ export default function Home() {
       </div>
 
       <div>
-        <div className="text-xl sm:text-2xl mb-2 sm:mb-4">Projects</div>
+        <div className="text-[21px] sm:text-2xl mb-2 sm:mb-4">Projects</div>
         <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-x-5 gap-y-6 sm:gap-y-8">
           {projects.map((item, index) => (
             <a
@@ -59,8 +59,8 @@ export default function Home() {
             >
               <img src={item.src} className="w-full"></img>
               <div>
-                <span className="sm:text-base text-lg group-hover:underline">{item.name}</span>
-                <span className="sm:text-base text-lg text-fgSecondary"> — {item.year}</span>
+                <span className="sm:text-lg text-[17px] group-hover:underline">{item.name}</span>
+                <span className="sm:text-lg text-[17px] text-fgSecondary"> — {item.year}</span>
                 <div className="sm:text-base text-fgSecondary">{item.desc}</div>
                 <div className="sm:text-base text-fgSecondary">{item.tools}</div>
               </div>
