@@ -6,12 +6,12 @@ import './globals.css'
 const custom = localFont({
   src: [
     {
-      path: '../../public/fonts/font-regular.woff2',
+      path: '../../public/fonts/neue-montreal-regular.woff2',
       weight: '400',
       style: 'normal'
     },
     {
-      path: '../../public/fonts/font-medium.woff2',
+      path: '../../public/fonts/neue-montreal-medium.woff2',
       weight: '500',
       style: 'normal'
     }
