@@ -10,7 +10,7 @@ export const experience = [
     company: 'Web Agency',
     role: 'Web Developer',
     roleFull: 'Web Designer & Developer',
-    time: 'May 2024 - Jul 2024',
+    time: 'Jul 2024 - Jul 2024',
     src: 'logos/placeholder.png'
   },
   {
