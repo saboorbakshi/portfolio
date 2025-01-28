@@ -29,8 +29,8 @@ export const experience = [
   },
   {
     company: 'WeBook',
-    role: 'Frontend Engineer',
-    roleFull: 'Frontend Engineer',
+    role: 'Software Engineer',
+    roleFull: 'Software Engineer',
     time: 'Jan 2022 - Apr 2022',
     src: 'logos/webook.png'
   }
