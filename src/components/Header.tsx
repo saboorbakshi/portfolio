@@ -23,7 +23,7 @@ function NavLink({ href, children }: NavLinkProps) {
 
 export default function Header() {
   return (
-    <header className="flex flex-row justify-between items-center mb-8">
+    <header className="flex flex-row justify-between items-center mb-7 sm:mb-8">
       <NavLink href="/">Saboor Bakshi</NavLink>
       <div className="flex flex-row gap-6">
         <NavLink href="/projects">Projects</NavLink>
