@@ -2,7 +2,7 @@ import { writing } from '@/data'
 
 export default function Writing() {
   return (
-    <div className="flex flex-col gap-5 sm:gap-6">
+    <div className="flex flex-col gap-5">
       {/* {writing.map((item, index) => (
         <a
           key={index}

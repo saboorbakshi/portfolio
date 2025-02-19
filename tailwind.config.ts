@@ -18,7 +18,7 @@ const config: Config = {
         stroke: '#e0e0e0'
       },
       maxWidth: {
-        'screen-custom': '500px'
+        'screen-custom': '600px'
       }
     }
   },

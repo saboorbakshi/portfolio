@@ -2,7 +2,7 @@ import Link from '@/components/Link'
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-4 sm:gap-6">
+    <div className="flex flex-col gap-5">
       <div className="sm:text-base">
         Software Engineer with a deep appreciation for good design. Currently studying Computer
         Science at the University of Waterloo.
