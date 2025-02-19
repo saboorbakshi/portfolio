@@ -18,10 +18,7 @@ const config: Config = {
         stroke: '#e0e0e0'
       },
       maxWidth: {
-        'screen-custom': '740px'
-      },
-      fontSize: {
-        base: ['16.5px', '1.5'] // 16.5px with a line-height of 1.5
+        'screen-custom': '500px'
       }
     }
   },

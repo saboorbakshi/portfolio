@@ -38,17 +38,25 @@ export const experience = [
 
 export const projects = [
   {
+    name: 'TopBot',
+    year: 2024,
+    desc: 'Reverse-engineered public APIs to track crypto app rankings for free',
+    tools: 'React • Supabase • GitHub Actions (Cron)',
+    src: 'projects/topbot.png',
+    url: 'https://www.topbot.dev/'
+  },
+  {
     name: 'Cold Email Hackers',
     year: 2024,
-    desc: 'Web Agency Client 1',
-    tools: 'Next.js • Figma',
+    desc: 'Web Agency Client #1',
+    tools: 'React • Figma',
     src: 'projects/cold-email-hackers.png',
     url: 'https://www.coldemailhackers.com/'
   },
   {
     name: 'USTC',
     year: 2024,
-    desc: 'Web Agency Client 2',
+    desc: 'Web Agency Client #2',
     tools: 'Next.js • Figma',
     src: 'projects/ustc.png',
     url: 'https://ustc.sa/en'
@@ -56,25 +64,32 @@ export const projects = [
   {
     name: 'PodSearch',
     year: 2024,
-    desc: 'Embedded podcast transcripts enabling semantic search for podcasts via queries',
+    desc: 'Made podcasts searchable by embedding transcripts for semantic query retrieval',
     tools: 'Next.js • Hugging Face • Sentence Transformers',
     src: 'projects/pod-search.png',
     url: 'https://github.com/saboorbakshi/pod-search'
   },
   {
-    name: 'TopBot',
-    year: 2024,
-    desc: 'Reverse-engineered publicly available APIs to track rankings of top crypto apps',
-    tools: 'React • Supabase • GitHub Actions (Cron)',
-    src: 'projects/topbot.png',
-    url: 'https://www.topbot.dev/'
-  },
-  {
     name: 'Hairloss AI',
     year: 2024,
-    desc: 'iOS app for diagnosing Male Androgenic Alopecia',
-    tools: 'Expo • OpenCV • MediaPipe • Jupyter Notebook',
+    desc: 'Developed an Expo app for diagnosing Male Androgenic Alopecia',
+    tools: 'React Native • OpenCV • MediaPipe • Jupyter Notebook',
     src: 'projects/hairloss-ai.png',
     url: 'https://apps.apple.com/us/app/hairloss-ai-scan-hair-health/id6563141135'
+  }
+]
+
+export const writing = [
+  {
+    title: 'Lessons learnt fostering kittens',
+    date: 'Feb 19, 2025'
+  },
+  {
+    title: 'Why Computer Science',
+    date: 'Feb 19, 2025'
+  },
+  {
+    title: 'What success means to me',
+    date: 'Feb 19, 2025'
   }
 ]

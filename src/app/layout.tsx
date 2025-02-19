@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import Footer from '@/components/Footer'
 import './globals.css'
+import Header from '@/components/Header'
 
 const custom = localFont({
   src: [
@@ -33,8 +34,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${custom.variable} font-custom`}>
       <body className="flex flex-col min-h-screen">
-        <main className="flex flex-col grow items-center my-8 sm:my-24 px-4">
-          <div className="w-full max-w-screen-custom">{children}</div>
+        <main className="flex flex-col grow items-center my-12 sm:my-24 px-6">
+          <div className="w-full max-w-screen-custom">
+            <Header />
+            {children}
+          </div>
         </main>
         <div className="h-[1px] bg-stroke" />
         <Footer />
