@@ -7,11 +7,11 @@ export default function Footer() {
         </a>
 
         <div className="flex items-center gap-1">
-          <div className="relative flex items-center justify-center p-1">
-            <div className="absolute size-[7px] animate-ping rounded-full bg-green-500 opacity-75"></div>
-            <div className="size-[7px] rounded-full bg-green-500"></div>
+          <div className="relative flex items-center justify-center p-1.5">
+            <div className="absolute size-2 animate-ping rounded-full bg-green-500 opacity-75"></div>
+            <div className="size-2 rounded-full bg-green-500"></div>
           </div>
-          <div className="text-sm sm:text-[15px] text-fgSecondary">Updated Feb 19, 2025</div>
+          <div className="text-[15px] text-fgSecondary">Updated Feb 19, 2025</div>
         </div>
       </div>
     </footer>
