@@ -2,7 +2,7 @@ import { projects } from '@/data'
 
 export default function Projects() {
   return (
-    <div className="flex flex-col gap-4 sm:gap-6">
+    <div className="flex flex-col gap-5 sm:gap-6">
       {projects.map((item, index) => (
         <a
           key={index}
