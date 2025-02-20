@@ -62,20 +62,20 @@ export const projects = [
     url: 'https://ustc.sa/en'
   },
   {
-    name: 'PodSearch',
-    year: 2024,
-    desc: 'Made podcasts searchable by embedding transcripts for semantic query retrieval',
-    tools: 'Next.js • Hugging Face • Sentence Transformers',
-    src: 'projects/pod-search.mp4',
-    url: 'https://github.com/saboorbakshi/pod-search'
-  },
-  {
     name: 'Hairloss AI',
     year: 2024,
     desc: 'Developed an Expo app for diagnosing Male Androgenic Alopecia',
     tools: 'React Native • OpenCV • MediaPipe • Jupyter Notebook',
     src: 'projects/hairloss-ai.mp4',
     url: 'https://apps.apple.com/us/app/hairloss-ai-scan-hair-health/id6563141135'
+  },
+  {
+    name: 'PodSearch',
+    year: 2024,
+    desc: 'Made podcasts searchable by embedding transcripts for semantic query retrieval',
+    tools: 'Next.js • Hugging Face • Sentence Transformers',
+    src: 'projects/pod-search.mp4',
+    url: 'https://github.com/saboorbakshi/pod-search'
   }
 ]
 

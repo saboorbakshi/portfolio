@@ -11,10 +11,10 @@ export default function Projects() {
           rel="noopener noreferrer"
           href={item.url}
         >
-          <div className="flex items-center justify-center bg-bgSecondary group-hover:bg-bgTertiary aspect-square rounded-3xl overflow-hidden">
+          <div className="flex items-center justify-center bg-bgSecondary group-hover:bg-bgTertiary aspect-square rounded-2xl sm:rounded-3xl overflow-hidden">
             <video
               src={item.src}
-              className="max-h-[90%] max-w-[85%] object-contain rounded-xl"
+              className="max-h-[90%] max-w-[85%] object-contain rounded-none"
               loop
               muted
               playsInline
