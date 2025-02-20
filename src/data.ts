@@ -82,14 +82,14 @@ export const projects = [
 export const writing = [
   {
     title: 'Lessons learnt fostering kittens',
-    date: 'Feb 19, 2025'
+    date: '-'
   },
   {
     title: 'Why Computer Science @UWaterloo',
-    date: 'Feb 19, 2025'
+    date: '-'
   },
   {
     title: 'What success means to me',
-    date: 'Feb 19, 2025'
+    date: '-'
   }
 ]
