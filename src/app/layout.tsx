@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${custom.variable} font-custom`}>
       <body className="flex flex-col min-h-screen">
-        <main className="flex flex-col grow items-center my-8 sm:my-12 px-6">
+        <main className="flex flex-col grow items-center my-8 mb-12 sm:my-12 px-6">
           <div className="w-full max-w-screen-custom">
             <Header />
             {children}

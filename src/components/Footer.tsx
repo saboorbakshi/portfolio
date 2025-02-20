@@ -2,8 +2,12 @@ export default function Footer() {
   return (
     <footer className="flex flex-col items-center justify-center px-6">
       <div className="w-full max-w-screen-custom flex justify-between items-center py-3">
+        <a href="/" className="text-fgSecondary hover:underline">
+          Saboor Bakshi
+        </a>
+
         <a href="/writing" className="text-fgSecondary hover:underline">
-          Writing
+          .
         </a>
 
         <div className="flex items-center gap-1">
