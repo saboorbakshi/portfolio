@@ -85,7 +85,7 @@ export const writing = [
     date: 'Feb 19, 2025'
   },
   {
-    title: 'Why Computer Science',
+    title: 'Why Computer Science @UWaterloo',
     date: 'Feb 19, 2025'
   },
   {

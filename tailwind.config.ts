@@ -12,7 +12,7 @@ const config: Config = {
         custom: ['var(--font-custom)']
       },
       colors: {
-        bg: '#fafafa',
+        bg: '#ffffff',
         fg: '#000000',
         fgSecondary: '#8a8a8a',
         stroke: '#e0e0e0'
