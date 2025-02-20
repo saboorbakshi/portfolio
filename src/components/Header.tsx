@@ -11,7 +11,7 @@ export default function Header() {
     <header className="flex justify-between items-center mb-7 sm:mb-8">
       <Link
         href="/"
-        className={`sm:text-base ${isActive ? 'text-fg' : 'text-fgSecondary'} hover:text-fg`}
+        className={`text-xl ${isActive ? 'text-fg' : 'text-fgSecondary'} hover:text-fg`}
       >
         Saboor Bakshi
       </Link>

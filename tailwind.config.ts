@@ -13,12 +13,13 @@ const config: Config = {
       },
       colors: {
         bg: '#ffffff',
+        bgSecondary: '#f3f3f3',
         fg: '#000000',
         fgSecondary: '#8a8a8a',
         stroke: '#e0e0e0'
       },
       maxWidth: {
-        'screen-custom': '600px'
+        'screen-custom': '576px'
       }
     }
   },
