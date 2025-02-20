@@ -42,7 +42,7 @@ export const projects = [
     year: 2024,
     desc: 'Reverse-engineered public APIs to track crypto app rankings for free',
     tools: 'React • Supabase • GitHub Actions (Cron)',
-    src: 'projects/topbot.png',
+    src: 'projects/topbot.mp4',
     url: 'https://www.topbot.dev/'
   },
   {
@@ -50,7 +50,7 @@ export const projects = [
     year: 2024,
     desc: 'Web Agency Client #1',
     tools: 'React • Figma',
-    src: 'projects/cold-email-hackers.png',
+    src: 'projects/cold-email-hackers.mp4',
     url: 'https://www.coldemailhackers.com/'
   },
   {
@@ -58,7 +58,7 @@ export const projects = [
     year: 2024,
     desc: 'Web Agency Client #2',
     tools: 'Next.js • Figma',
-    src: 'projects/ustc.png',
+    src: 'projects/ustc.mp4',
     url: 'https://ustc.sa/en'
   },
   {
@@ -66,7 +66,7 @@ export const projects = [
     year: 2024,
     desc: 'Made podcasts searchable by embedding transcripts for semantic query retrieval',
     tools: 'Next.js • Hugging Face • Sentence Transformers',
-    src: 'projects/pod-search.png',
+    src: 'projects/pod-search.mp4',
     url: 'https://github.com/saboorbakshi/pod-search'
   },
   {
@@ -74,7 +74,7 @@ export const projects = [
     year: 2024,
     desc: 'Developed an Expo app for diagnosing Male Androgenic Alopecia',
     tools: 'React Native • OpenCV • MediaPipe • Jupyter Notebook',
-    src: 'projects/hairloss-ai.png',
+    src: 'projects/hairloss-ai.mp4',
     url: 'https://apps.apple.com/us/app/hairloss-ai-scan-hair-health/id6563141135'
   }
 ]

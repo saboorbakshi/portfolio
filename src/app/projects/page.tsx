@@ -11,8 +11,15 @@ export default function Projects() {
           rel="noopener noreferrer"
           href={item.url}
         >
-          <div className="flex items-center justify-center bg-bgSecondary aspect-square rounded-3xl overflow-hidden">
-            <img src={item.src} className="max-h-[90%] max-w-[85%] object-contain rounded-xl" />
+          <div className="flex items-center justify-center bg-bgSecondary group-hover:bg-bgTertiary aspect-square rounded-3xl overflow-hidden">
+            <video
+              src={item.src}
+              className="max-h-[90%] max-w-[85%] object-contain rounded-xl"
+              loop
+              muted
+              playsInline
+              autoPlay
+            ></video>
           </div>
           <div>
             <span className="sm:text-base group-hover:underline">{item.name}</span>

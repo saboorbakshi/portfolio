@@ -13,7 +13,8 @@ const config: Config = {
       },
       colors: {
         bg: '#ffffff',
-        bgSecondary: '#f3f3f3',
+        bgSecondary: '#f5f5f5',
+        bgTertiary: '#f0f0f0',
         fg: '#000000',
         fgSecondary: '#8a8a8a',
         stroke: '#e0e0e0'
