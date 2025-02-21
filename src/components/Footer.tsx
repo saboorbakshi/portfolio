@@ -15,7 +15,7 @@ export default function Footer() {
             <div className="absolute size-2 animate-ping rounded-full bg-green-500 opacity-75"></div>
             <div className="size-2 rounded-full bg-green-500"></div>
           </div>
-          <div className="text-fgSecondary">Updated Feb 20, 2025</div>
+          <div className="text-fgSecondary">Updated Feb 21, 2025</div>
         </div>
       </div>
     </footer>
