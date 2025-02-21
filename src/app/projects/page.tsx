@@ -14,7 +14,7 @@ export default function Projects() {
           <div className="flex items-center justify-center bg-bgSecondary group-hover:bg-bgTertiary aspect-square rounded-2xl sm:rounded-3xl overflow-hidden">
             <video
               src={item.src}
-              className="max-h-[90%] max-w-[85%] object-contain rounded-none"
+              className="max-h-[90%] max-w-[85%] object-contain rounded-none group-hover:scale-95 transition-transform duration-500 ease-in-out"
               loop
               muted
               playsInline
