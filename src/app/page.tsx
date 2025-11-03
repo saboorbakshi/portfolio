@@ -17,12 +17,12 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col gap-4">
-        <div>Work</div>
+        <a href="/work">Work</a>
         <WorkList items={WORK_LIST_ITEMS} />
       </div>
 
       <div className="flex flex-col gap-4">
-        <div>Writing</div>
+        <a href="/writing">Writing</a>
         <ArticleList articles={ARTICLE_LIST_ITEMS} />
       </div>
     </div>
