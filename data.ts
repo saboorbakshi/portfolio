@@ -16,76 +16,91 @@ export const WORK_LIST_ITEMS = [
   {
     title: 'TopBot',
     subtitle: 'App Store crypto app rankings',
-    href: '/topbot',
+    href: 'top-bot',
     category: 'Project',
     date: '05-2024'
   },
   {
     title: 'ColdEmailHackers',
     subtitle: 'Client',
-    href: '/cold-email-hackers',
+    href: 'cold-email-hackers',
     category: 'Product',
     date: '06-2024'
   },
   {
     title: 'USTC',
     subtitle: 'Client',
-    href: '/ustc',
+    href: 'ustc',
     category: 'Product',
     date: '08-2024'
   },
   {
     title: 'Hairloss AI',
     subtitle: 'Male pattern baldness detection',
-    href: '/hairloss-ai',
+    href: 'hairloss-ai',
     category: 'Product',
     date: '09-2024'
   },
   {
     title: 'PodSearch',
     subtitle: 'Local semantic search for podcasts',
-    href: '/podsearch',
+    href: 'pod-search',
     category: 'Project',
     date: '11-2024'
   },
   {
     title: 'CS 492',
     subtitle: 'Outcomes of bias in clinical research ',
-    href: '/cs492',
+    href: 'cs-492',
     category: 'Research',
     date: '03-2025'
   },
   {
     title: 'MarketingEngine',
     subtitle: 'Automated reel generation',
-    href: '/marketingengine',
+    href: 'marketing-engine',
     category: 'Product',
     date: '08-2025'
   },
   {
     title: 'Hubb',
     subtitle: 'Rizz for Saudis',
-    href: '/hubb',
+    href: 'hubb',
     category: 'Product',
     date: '09-2025'
   },
   {
     title: 'NinjaScraper',
     subtitle: 'Web scraping and crawling',
-    href: '/ninja-scraper',
+    href: 'ninja-scraper',
     category: 'Project',
     date: '09-2025'
   },
   {
-    title: 'Cal AI redesign',
+    title: 'Calorie tracker',
     subtitle: 'Onboarding flow in Swift',
-    href: '/cal-ai-redesigned',
+    href: 'calorie-tracker',
     category: 'Project',
     date: '10-2025'
   }
 ]
 
 export const ARTICLE_LIST_ITEMS = [
-  { date: '03-2025', title: 'Clowder of cats', href: '' },
-  { date: 'WIP', title: 'Thoughts post graduation', href: '' }
+  { date: '03-2025', title: 'Clowder of cats', href: 'clowder-of-cats' },
+  {
+    date: 'WIP',
+    title: 'Thoughts post graduation',
+    href: 'thoughts-post-graduation'
+  }
 ]
+
+export const BREADCRUMBS = {
+  work: [
+    { label: 'Home', href: '/' },
+    { label: 'Work', href: '/work' }
+  ],
+  writing: [
+    { label: 'Home', href: '/' },
+    { label: 'Writing', href: '/writing' }
+  ]
+}

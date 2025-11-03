@@ -13,7 +13,7 @@ interface WorkListProps {
 export const WorkList = ({ items }: WorkListProps) => (
   <div className="flex flex-col">
     {[...items].reverse().map((item, index) => (
-      <a key={index} href={item.href}>
+      <a key={index} href={'/work/' + item.href}>
         <div className="flex justify-between items-center hover:scale-99 transition-all py-2">
           <div className="flex gap-3">
             <div>{item.title}</div>

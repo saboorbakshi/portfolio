@@ -22,7 +22,7 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col gap-4">
-        <div>Writings</div>
+        <div>Writing</div>
         <ArticleList articles={ARTICLE_LIST_ITEMS} />
       </div>
     </div>
