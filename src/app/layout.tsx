@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={suisse.className}>
-      <body className="flex flex-col items-center py-18 sm:py-24 px-8">
+      <body className="flex flex-col items-center py-16 sm:py-20 px-8">
         <div className="max-w-page w-full">{children}</div>
       </body>
     </html>
