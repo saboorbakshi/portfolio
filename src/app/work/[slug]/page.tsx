@@ -25,11 +25,17 @@ export default async function WorkPage({ params }: { params: { slug: string } })
               src={'/hero/' + work.imageUrl}
               alt={work.title}
               width={PAGE_WIDTH}
-              height={PAGE_WIDTH * (1732 / 3024)}
+              height={PAGE_WIDTH * (1214 / 2048)}
               className="border border-border"
             />
           ) : (
-            <video style={{ height: PAGE_WIDTH * (10 / 16) }} autoPlay muted loop className="w-full object-cover border border-border">
+            <video
+              loop
+              muted
+              autoPlay
+              style={{ height: PAGE_WIDTH * (10 / 16) }}
+              className="w-full object-cover border border-border"
+            >
               <source src={`/hero/${work.videoUrl}`} type="video/mp4" />
             </video>
           )

@@ -39,7 +39,7 @@ export const WORK_DICTIONARY: Record<string, Work> = {
   'cold-email-hackers': {
     title: 'ColdEmailHackers',
     subtitle: 'Client',
-    imageUrl: 'coldemailhackers.webp',
+    imageUrl: 'cold-email-hackers.webp',
     category: 'Product',
     date: '06-2024',
     links: [{ label: 'Visit site', href: 'https://www.coldemailhackers.com/' }],
@@ -120,7 +120,7 @@ export const WORK_DICTIONARY: Record<string, Work> = {
   'cs-492': {
     title: 'CS 492',
     subtitle: 'Outcomes of bias in clinical research',
-    imageUrl: 'cs492.webp',
+    imageUrl: 'cs-492.webp',
     category: 'Research',
     date: '03-2025',
     links: [
