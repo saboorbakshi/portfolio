@@ -38,7 +38,7 @@ export default async function WorkPage({ params }: { params: { slug: string } })
                 slug !== 'topbot' ? 'aspect-square sm:aspect-auto' : ''
               }`}
             >
-              <source src={`/hero/${work.videoUrl}`} type="video/mp4" />
+              <source src={'/hero/' + work.videoUrl} type="video/mp4" />
             </video>
           )
         }
