@@ -6,7 +6,7 @@ export const PAGE_WIDTH = 560
 
 export const ABOUT = [
   'Recent Computer Science graduate from the University of Waterloo, actively seeking full-time roles.',
-  'Love working on core product experiences that make your heart flutter, going from 0 → 1, and sweating the details.',
+  'Love working on core product experiences, going from 0 → 1, and sweating the details.',
   'Co-founded a web and mobile app studio — biggest win scaled to 40K installs and $6K MRR in under six months, and exited for $90K CAD.',
   'Feel free to reach out. Always looking to connect.'
 ]

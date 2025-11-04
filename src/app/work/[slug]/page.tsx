@@ -29,7 +29,13 @@ export default async function WorkPage({ params }: { params: { slug: string } })
               className="border border-border"
             />
           ) : (
-            <video loop muted autoPlay className="w-full object-cover border border-border">
+            <video
+              loop
+              muted
+              autoPlay
+              style={slug === 'topbot' ? {} : { aspectRatio: 1 }}
+              className="w-full object-cover border border-border"
+            >
               <source src={`/hero/${work.videoUrl}`} type="video/mp4" />
             </video>
           )
