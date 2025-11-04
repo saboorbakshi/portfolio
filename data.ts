@@ -119,25 +119,25 @@ export const WORK_DICTIONARY: Record<string, Work> = {
       }
     ]
   },
-  'cs-492': {
-    title: 'CS 492',
-    subtitle: 'Outcomes of bias in clinical research',
-    imageUrl: 'cs-492.webp',
-    category: 'Research',
-    date: '03-2025',
-    links: [
-      { label: 'Visit site', href: 'https://cs492-racial-bias.vercel.app/' },
-      { label: 'GitHub', href: 'https://github.com/saboorbakshi/cs492-racial-bias' }
-    ],
-    content: [
-      {
-        text: [
-          'Explored how biased clinical research data affects healthcare practices for our CS 492 project. ',
-          "Designed and built the site, used Assembly AI's speech-to-text model with speaker diarization to generate transcripts for the interviews."
-        ]
-      }
-    ]
-  },
+  // 'cs-492': {
+  //   title: 'CS 492',
+  //   subtitle: 'Outcomes of bias in clinical research',
+  //   imageUrl: 'cs-492.webp',
+  //   category: 'Research',
+  //   date: '03-2025',
+  //   links: [
+  //     { label: 'Visit site', href: 'https://cs492-racial-bias.vercel.app/' },
+  //     { label: 'GitHub', href: 'https://github.com/saboorbakshi/cs492-racial-bias' }
+  //   ],
+  //   content: [
+  //     {
+  //       text: [
+  //         'Explored how biased clinical research data affects healthcare practices for our CS 492 project. ',
+  //         "Designed and built the site, used Assembly AI's speech-to-text model with speaker diarization to generate transcripts for the interviews."
+  //       ]
+  //     }
+  //   ]
+  // },
   'marketing-tool': {
     title: 'Marketing Tool',
     subtitle: 'Automated reel generation',
@@ -169,23 +169,23 @@ export const WORK_DICTIONARY: Record<string, Work> = {
       }
     ]
   },
-  'ninja-scraper': {
-    title: 'NinjaScraper',
-    subtitle: 'Web scraping and crawling',
-    imageUrl: 'ninja.webp',
-    category: 'Project',
-    date: '09-2025',
-    links: [{ label: 'GitHub', href: 'https://github.com/saboorbakshi/haleeb-script' }],
-    content: [
-      {
-        text: [
-          'Started off trying to create the Yuka for Saudi Arabia. Scraped the entire Ninja website, a popular e-commerce platform in Saudi Arabia, to collect all product data.',
-          'Used Python and Selenium. Later realized I could use the sitemap to recursively crawl through the site.',
-          "Next steps were to use LLMs to extract barcodes and nutrition info, but realized the market wasn't as strong as anticipated."
-        ]
-      }
-    ]
-  },
+  // 'ninja-scraper': {
+  //   title: 'NinjaScraper',
+  //   subtitle: 'Web scraping and crawling',
+  //   imageUrl: 'ninja.webp',
+  //   category: 'Project',
+  //   date: '09-2025',
+  //   links: [{ label: 'GitHub', href: 'https://github.com/saboorbakshi/haleeb-script' }],
+  //   content: [
+  //     {
+  //       text: [
+  //         'Started off trying to create the Yuka for Saudi Arabia. Scraped the entire Ninja website, a popular e-commerce platform in Saudi Arabia, to collect all product data.',
+  //         'Used Python and Selenium. Later realized I could use the sitemap to recursively crawl through the site.',
+  //         "Next steps were to use LLMs to extract barcodes and nutrition info, but realized the market wasn't as strong as anticipated."
+  //       ]
+  //     }
+  //   ]
+  // },
   hubb: {
     title: 'Hubb',
     subtitle: 'Rizz for arabs',
@@ -257,18 +257,20 @@ export const WRITING_DICTIONARY = {
   }
 } as const
 
-export const WRITING_SORTED_LIST = Object.entries(WRITING_DICTIONARY)
-  .map(([href, data]) => ({ href, ...data }))
-  // .sort((a, b) => {
-  //   if (a.date === 'WIP') return 1
-  //   if (b.date === 'WIP') return -1
+export const WRITING_SORTED_LIST = Object.entries(WRITING_DICTIONARY).map(([href, data]) => ({
+  href,
+  ...data
+}))
+// .sort((a, b) => {
+//   if (a.date === 'WIP') return 1
+//   if (b.date === 'WIP') return -1
 
-  //   const [monthA, yearA] = a.date.split('-').map(Number)
-  //   const [monthB, yearB] = b.date.split('-').map(Number)
+//   const [monthA, yearA] = a.date.split('-').map(Number)
+//   const [monthB, yearB] = b.date.split('-').map(Number)
 
-  //   if (yearA !== yearB) return yearB - yearA
-  //   return monthB - monthA
-  // })
+//   if (yearA !== yearB) return yearB - yearA
+//   return monthB - monthA
+// })
 
 export const BREADCRUMBS = {
   work: [
