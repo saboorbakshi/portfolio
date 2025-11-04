@@ -19,7 +19,7 @@ export const LINKS = [
 ]
 
 export const WORK_DICTIONARY: Record<string, Work> = {
-  'top-bot': {
+  topbot: {
     title: 'TopBot',
     subtitle: 'App Store crypto app rankings',
     videoUrl: 'topbot.mp4',
@@ -162,7 +162,7 @@ export const WORK_DICTIONARY: Record<string, Work> = {
         ]
       },
       {
-        title: 'Outcome',
+        title: 'Result',
         text: [
           'Instead of paying $1-3 for each video with a 30 minute turnaround time, we could generate 10+ videos for the same cost in under 5 minutes — 10x cheaper and 60x faster.'
         ]
@@ -200,12 +200,20 @@ export const WORK_DICTIONARY: Record<string, Work> = {
     ],
     content: [
       {
-        text: ['My second website client.']
+        text: [
+          'Created a relationship assistant for arab couples. Wanted to test the market in Saudi Arabia.'
+        ]
       },
       {
-        title: 'More details',
+        title: 'Development',
         text: [
-          'My second website client. My second website client. My second website client. My second website client. My second website client.'
+          'Built the app with Swift. Learnt the language from Stanford’s CS193p class. Spent a bit too much time tweaking design details.'
+        ]
+      },
+      {
+        title: 'Result',
+        text: [
+          'Hit 50k views in less than a week from two cold TikTok accounts with automated marketing. Resulted in single digit downloads. No user intent whatsoever.'
         ]
       }
     ]
@@ -213,18 +221,15 @@ export const WORK_DICTIONARY: Record<string, Work> = {
   'calorie-tracker': {
     title: 'Calorie tracker',
     subtitle: 'Onboarding flow in Swift',
-    imageUrl: 'calorie-tracker.webp',
+    videoUrl: 'calorie-tracker-onboarding.mp4',
     category: 'Project',
     date: '10-2025',
     links: [{ label: 'GitHub', href: 'https://github.com/saboorbakshi/mycalories-client' }],
     content: [
       {
-        text: ['My second website client.']
-      },
-      {
-        title: 'More details',
         text: [
-          'My second website client. My second website client. My second website client. My second website client. My second website client.'
+          'Built an onboarding flow for a calorie tracking app in Swift.',
+          'Created a custom router and implemented navigation using data. Added light and dark mode. Put quite a bit of effort into the design.'
         ]
       }
     ]
@@ -244,26 +249,26 @@ export const WORK_SORTED_LIST = Object.entries(WORK_DICTIONARY)
 export const WRITING_DICTIONARY = {
   'clowder-of-cats': {
     title: 'Clowder of cats',
-    date: '03-2025'
+    date: 'WIP'
   },
-  '3-years-at-uwaterloo': {
-    title: '3 years at UWaterloo',
+  'uwaterloo-recap': {
+    title: 'UWaterloo recap',
     date: 'WIP'
   }
 } as const
 
 export const WRITING_SORTED_LIST = Object.entries(WRITING_DICTIONARY)
   .map(([href, data]) => ({ href, ...data }))
-  .sort((a, b) => {
-    if (a.date === 'WIP') return 1
-    if (b.date === 'WIP') return -1
+  // .sort((a, b) => {
+  //   if (a.date === 'WIP') return 1
+  //   if (b.date === 'WIP') return -1
 
-    const [monthA, yearA] = a.date.split('-').map(Number)
-    const [monthB, yearB] = b.date.split('-').map(Number)
+  //   const [monthA, yearA] = a.date.split('-').map(Number)
+  //   const [monthB, yearB] = b.date.split('-').map(Number)
 
-    if (yearA !== yearB) return yearB - yearA
-    return monthB - monthA
-  })
+  //   if (yearA !== yearB) return yearB - yearA
+  //   return monthB - monthA
+  // })
 
 export const BREADCRUMBS = {
   work: [
