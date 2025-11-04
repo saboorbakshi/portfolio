@@ -34,8 +34,9 @@ export default async function WorkPage({ params }: { params: { slug: string } })
               muted
               autoPlay
               playsInline
-              style={slug === 'topbot' ? {} : { aspectRatio: 1 }}
-              className="w-full object-cover border border-border"
+              className={`w-full object-cover border border-border ${
+                slug !== 'topbot' ? 'aspect-square sm:aspect-auto' : ''
+              }`}
             >
               <source src={`/hero/${work.videoUrl}`} type="video/mp4" />
             </video>
