@@ -33,6 +33,7 @@ export default async function WorkPage({ params }: { params: { slug: string } })
               loop
               muted
               autoPlay
+              playsInline
               style={slug === 'topbot' ? {} : { aspectRatio: 1 }}
               className="w-full object-cover border border-border"
             >
