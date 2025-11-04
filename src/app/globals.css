@@ -27,3 +27,12 @@ body {
   color: var(--fg);
   font-size: 15px;
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}

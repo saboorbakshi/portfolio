@@ -20,13 +20,19 @@ export default async function WorkPage({ params }: { params: { slug: string } })
         title={work.title}
         date={work.date}
         hero={
-          <Image
-            src={'/hero/' + work.imageUrl}
-            alt={work.title}
-            width={PAGE_WIDTH}
-            height={PAGE_WIDTH}
-            className="border border-border"
-          />
+          work.imageUrl ? (
+            <Image
+              src={'/hero/' + work.imageUrl}
+              alt={work.title}
+              width={PAGE_WIDTH}
+              height={PAGE_WIDTH * (1732 / 3024)}
+              className="border border-border"
+            />
+          ) : (
+            <video style={{ height: PAGE_WIDTH * (10 / 16) }} autoPlay muted loop className="w-full object-cover border border-border">
+              <source src={`/hero/${work.videoUrl}`} type="video/mp4" />
+            </video>
+          )
         }
         content={work.content}
         links={work.links}
