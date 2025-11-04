@@ -1,5 +1,7 @@
 import { Work } from './types'
 
+export const ASPECT_RATIO = 9 / 16
+
 export const PAGE_WIDTH = 560
 
 export const ABOUT = [
@@ -20,7 +22,7 @@ export const WORK_DICTIONARY: Record<string, Work> = {
   'top-bot': {
     title: 'TopBot',
     subtitle: 'App Store crypto app rankings',
-    imageUrl: 'topbot.webp',
+    videoUrl: 'topbot.mp4',
     category: 'Project',
     date: '05-2024',
     links: [

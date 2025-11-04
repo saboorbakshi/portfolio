@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation'
-import { WORK_DICTIONARY, BREADCRUMBS, PAGE_WIDTH } from '../../../../data'
+import { WORK_DICTIONARY, BREADCRUMBS, PAGE_WIDTH, ASPECT_RATIO } from '../../../../data'
 import Breadcrumb from '@/components/Breadcrumb'
 import Image from 'next/image'
 import Article from '@/components/Article'
@@ -25,7 +25,7 @@ export default async function WorkPage({ params }: { params: { slug: string } })
               src={'/hero/' + work.imageUrl}
               alt={work.title}
               width={PAGE_WIDTH}
-              height={PAGE_WIDTH * (1214 / 2048)}
+              height={PAGE_WIDTH * ASPECT_RATIO}
               className="border border-border"
             />
           ) : (
@@ -33,7 +33,7 @@ export default async function WorkPage({ params }: { params: { slug: string } })
               loop
               muted
               autoPlay
-              style={{ height: PAGE_WIDTH * (10 / 16) }}
+              style={{ height: PAGE_WIDTH * ASPECT_RATIO }}
               className="w-full object-cover border border-border"
             >
               <source src={`/hero/${work.videoUrl}`} type="video/mp4" />
