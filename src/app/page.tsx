@@ -1,8 +1,8 @@
 import { SocialLinks } from '@/components/SocialLinks'
-import { ABOUT, LINKS, WORK_SORTED_LIST, ARTICLE_SORTED_LIST } from '../../data'
+import { ABOUT, LINKS, WORK_SORTED_LIST, WRITING_SORTED_LIST } from '../../data'
 import { About } from '@/components/About'
 import { WorkList } from '@/components/WorkList'
-import { ArticleList } from '@/components/ArticleList'
+import { WritingList } from '@/components/WritingList'
 
 export default function RootPage() {
   return (
@@ -23,7 +23,7 @@ export default function RootPage() {
 
       <div className="flex flex-col gap-4">
         <a href="/writing">Writing</a>
-        <ArticleList articles={ARTICLE_SORTED_LIST} />
+        <WritingList writings={WRITING_SORTED_LIST} />
       </div>
     </div>
   )

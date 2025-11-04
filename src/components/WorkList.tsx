@@ -24,7 +24,7 @@ export const WorkList = ({ items }: WorkListProps) => (
             <div className="text-fg-2 w-16 text-right">{item.date}</div>
           </div>
         </div>
-        {index < items.length - 1 && <div className="h-px bg-[#f7f7f7]" />}
+        {index < items.length - 1 && <div className="h-px bg-border" />}
       </a>
     ))}
   </div>

@@ -1,6 +1,8 @@
 import { notFound } from 'next/navigation'
-import { WORK_DICTIONARY, BREADCRUMBS } from '../../../../data'
+import { WORK_DICTIONARY, BREADCRUMBS, PAGE_WIDTH } from '../../../../data'
 import Breadcrumb from '@/components/Breadcrumb'
+import Image from 'next/image'
+import Article from '@/components/Article'
 
 export default async function WorkPage({ params }: { params: { slug: string } }) {
   const { slug } = await params
@@ -14,10 +16,21 @@ export default async function WorkPage({ params }: { params: { slug: string } })
     <div className="flex flex-col gap-8">
       <Breadcrumb items={breadcrumbItems} />
 
-      <article>
-        <h1 className="text-2xl font-semibold">{work.title}</h1>
-        <p className="text-fg-2">{work.date}</p>
-      </article>
+      <Article
+        title={work.title}
+        date={work.date}
+        hero={
+          <Image
+            src={'/hero/' + work.imageUrl}
+            alt={work.title}
+            width={PAGE_WIDTH}
+            height={PAGE_WIDTH}
+            className="border border-border"
+          />
+        }
+        content={work.content}
+        links={work.links}
+      />
     </div>
   )
 }

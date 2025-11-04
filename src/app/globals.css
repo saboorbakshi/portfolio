@@ -2,16 +2,24 @@
 
 :root {
   --bg: #ffffff;
+  --bg-2: #f7f7f7;
+  --bg-3: #f0f0f0;
   --fg: #222222;
   --fg2: #a9a9a9;
   --width-page: 560px;
+  --border: #f7f7f7;
 }
 
 @theme inline {
   --color-bg: var(--bg);
+  --color-bg-2: var(--bg-2);
+  --color-bg-3: var(--bg-3);
   --color-fg: var(--fg);
   --color-fg-2: var(--fg2);
   --max-width-page: var(--width-page);
+  --color-border: var(--border);
+  --font-sans: var(--font-suisse), system-ui, sans-serif;
+  --font-mono: var(--font-suisse-mono), monospace;
 }
 
 body {

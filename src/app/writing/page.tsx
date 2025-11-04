@@ -1,13 +1,12 @@
 import Breadcrumb from '@/components/Breadcrumb'
-import { ARTICLE_SORTED_LIST } from '../../../data'
-import { ArticleList } from '@/components/ArticleList'
-import { BREADCRUMBS } from '../../../data'
+import { WritingList } from '@/components/WritingList'
+import { BREADCRUMBS, WRITING_SORTED_LIST } from '../../../data'
 
 export default function WritingPage() {
   return (
     <div className="flex flex-col gap-8">
       <Breadcrumb items={BREADCRUMBS.writing} />
-      <ArticleList articles={ARTICLE_SORTED_LIST} />
+      <WritingList writings={WRITING_SORTED_LIST} />
     </div>
   )
 }
