@@ -229,7 +229,7 @@ export const WORK_DICTIONARY: Record<string, Work> = {
       {
         text: [
           'Built an onboarding flow for a calorie tracking app in Swift.',
-          'Created a custom router and implemented navigation using data. Added light and dark mode. Put quite a bit of effort into the design.'
+          'Created a custom router and implemented data based navigation. Supported light and dark mode. Put quite a bit of effort into the design.'
         ]
       }
     ]
